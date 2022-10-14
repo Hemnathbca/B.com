@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, hotpink, white);
+}
+
+.card .section1 {
+    padding: 3rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0 1rem;
+    cursor: pointer;
+}
+
+ul li:nth-child(1) {
+    color: hotpink;
+}
+
+ul li:nth-child(2):hover {
+    transition: all 0.1s linear;
+    color: hotpink;
+}
+
+.section2 {
+    position: relative;
+    top: 4rem;
+}
+
+.section2 p:nth-child(1) {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #9f9f9f;
+    font-family: 'Roboto Slab', serif;
+}
+
+.card {
+    width: 97%;
+    height: 95vh;
+    overflow-y: scroll;
+}
+
+.section3 {
+    position: relative;
+    bottom: -12.5rem;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 46px;
+    background: hotpink;
+    left: 0;
+    margin: -0.7rem 0;
+    border-radius: 5px;
+}
+
+.icon1 {
+    top: 0;
+    position: fixed;
+}
+
+.sliderimg {
+    width: 200;
+    height: 200px;
+}
+
+.loader {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader .loading {
+    width: 97%;
+    height: 95vh;
+    background-color: hotpink;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-slider-option {
+    height: 280px;
+    width: 750px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.section3 {
+    top: 0;
+    position: fixed;
+    top: 40rem;
+}
+
+.section4 {
+    top: 0;
+    position: fixed;
+    top: 40rem;
+    right: 9rem;
+}
